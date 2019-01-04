@@ -1,9 +1,10 @@
 import React from 'react';
+import Landing from './landing';
 
 const App = () => {
   return (
     <div className="app">
-      <p>React + Redux starter</p>
+      <Landing />
     </div>
   );
 };

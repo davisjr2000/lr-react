@@ -1,7 +1,16 @@
 body {
   font-family: Helvetica;
+  background-color: black;
 }
-.app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+
+.landing{
+  height: 70vh;
+  background-size: cover;
+}
+
+.lr-logo{
+  height:60px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 50%;
 }
