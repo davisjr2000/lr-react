@@ -6,7 +6,7 @@ const Episode = (props) => {
   return (
     <li
       className="list-group-item"
-    >{props.episode.title}</li>
+    >{props.episode.number}. {props.episode.title}</li>
   );
 };
 
