@@ -8,8 +8,10 @@ const App = () => {
   return (
     <div className="app">
       <Landing />
-      <EpisodeList />
-      <SelectedEpisode />
+      <div className="d-flex">
+        <EpisodeList />
+        <SelectedEpisode />
+      </div>
     </div>
   );
 };
