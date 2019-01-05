@@ -8,6 +8,7 @@
   </head>
   <body>
     <div id="root"></div>
+    <h1 id="guiga">SANS</h1>
 <script>
       // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
@@ -19,7 +20,7 @@
       // 3. This function creates an <iframe> (and YouTube player)
       //    after the API code downloads.
       function onYouTubeIframeAPIReady() {
-        var player = new YT.Player('player', {
+        window.player = new YT.Player('player', {
           height: '390',
           width: '640',
           videoId: 'p-0971bGAY4',
@@ -48,6 +49,12 @@
       function stopVideo() {
         player.stopVideo();
       }
+
+      var sans = document.getElementById("guiga")
+      sans.addEventListener("click", function(){
+        player.loadVideoById('yy8NwjEtEkQ');
+      })
+
     </script>
   </body>
 </html>
