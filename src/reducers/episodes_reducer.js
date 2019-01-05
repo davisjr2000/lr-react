@@ -15,7 +15,7 @@ export default function(state = null, action) {
         { title: "Time to REEE", id: 'q9HxyTi5Yjs', number: 8 ,descripton: 'Agulha e Luan localizam um frene de alto poder e vão até ele. Ao encontrá-lo, percebem que não conseguiriam deter o frene sozinhos e requisitam ajuda ao poderoso ancestral, Gigante de Pepe.' },
         { title: "Require Assistance", id: 'tuv-MZnfrMw', number: 9  ,descripton: 'Agulha e Luan dão uma pausa na caça e compram uma casa por um bom preço, porém as condições do local não são boas e no meio da zona, Spike some.' },
         { title: "Green Horde (Pt.1)", id: '6l3u6Dr9N8U', number: 10 ,descripton: 'Na noite de halloween, Agulha e Luan param em um cemitério para testar uma fórmula para ressucitar pessoas em Naul, porém Spike quebra o frasco e o líquido se espalha por todo o cemitério.' },
-        { title: "Green Horder (Pt.2)", id: 'p-0971bGAY4', number: 11 ,descripton: 'Com toda a equipe de Luan pronta, o combate começa, porém não surte efeito e acabam chamando o todo poderoso "Melvin" para ajudá-los a deter o "Minion".' },
+        { title: "Green Horde (Pt.2)", id: 'p-0971bGAY4', number: 11 ,descripton: 'Com toda a equipe de Luan pronta, o combate começa, porém não surte efeito e acabam chamando o todo poderoso "Melvin" para ajudá-los a deter o "Minion".' },
         { title: "The Betryal", id: 'uMn0vo0hVvA', number: 12 ,descripton: 'O Grupo chega a casa de Naul e descobrem que ela foi destruída por um membro da equipe traidor.' }
       ];
     }

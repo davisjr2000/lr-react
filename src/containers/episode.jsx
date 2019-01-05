@@ -7,7 +7,7 @@ import selectEpisode from '../actions/index';
 const Episode = (props) => {
   return (
     <li
-      className="list-group-item" onClick={() => props.selectEpisode(props.episode)}
+      className={`list-group-item ${props.episode.id === props.selectedEpisode.id ? 'selected' : ''}`} onClick={() => props.selectEpisode(props.episode)}
     >{props.episode.number}. {props.episode.title} </li>
   );
 };
@@ -15,4 +15,11 @@ const Episode = (props) => {
 function mapDispatchToProps(dispatch) {
   return bindActionCreators({ selectEpisode}, dispatch);
 }
-export default connect(null, mapDispatchToProps)(Episode);
+
+function mapStateToProps(state){
+  return {
+    selectedEpisode: state.selectedEpisode
+  };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Episode);
