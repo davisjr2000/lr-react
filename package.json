@@ -30,7 +30,8 @@
     "redux": "^3.7.2"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
+    "dev": "webpack-dev-server",
     "lint": "eslint './src/**/*.js' './src/**/*.jsx'",
     "deploy": "webpack -p && gh-pages -d dist"
   }
