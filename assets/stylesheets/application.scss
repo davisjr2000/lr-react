@@ -56,7 +56,7 @@ body {
 
 iframe{
   width: 100%;
-  height: 30vw;
+  height: 32vw;
 }
 
 .selected{
@@ -67,4 +67,10 @@ iframe{
 .selected-episode-info{
   padding:10px;
   height: 150px;
+}
+
+@media (max-width: 1024px) {
+  .landing{
+    height: 40vw;
+  }
 }
