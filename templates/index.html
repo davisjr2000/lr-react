@@ -10,6 +10,8 @@
     <div id="root"></div>
     <script>
       // 1. This code loads the IFrame Player API code asynchronously.
+      console.log("Beginning of the Script!")
+
       var tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
@@ -19,6 +21,7 @@
       // 2. This function creates an <iframe> (and YouTube player)
       //    after the API code downloads.
       function onYouTubeIframeAPIReady() {
+        console.log("Iframe ready!")
         window.player = new YT.Player('player', {
           height: '390',
           width: '640',
