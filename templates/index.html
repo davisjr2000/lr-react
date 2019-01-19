@@ -8,9 +8,8 @@
     <title>Luan's Revolution</title>
   </head>
   <body>
-    <div id="root"></div>
     <script>
-      // 1. This code loads the IFrame Player API code asynchronously.
+      document.addEventListener("DOMContentLoaded", function(event) {
       console.log("Beginning of the Script!")
 
       var tag = document.createElement('script');
@@ -18,6 +17,12 @@
       tag.src = "https://www.youtube.com/iframe_api";
       var firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      });
+    </script>
+    <div id="root"></div>
+    <script>
+      // 1. This code loads the IFrame Player API code asynchronously.
+
 
       // 2. This function creates an <iframe> (and YouTube player)
       //    after the API code downloads.
