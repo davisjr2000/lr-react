@@ -73,4 +73,31 @@ iframe{
   .landing{
     height: 40vw;
   }
+  .app{
+    .episodes {
+      width: 70%;
+      margin: 150px auto;
+    }
+  }
+  .d-flex{
+    display: block;
+  }
+  .selected-episode-container{
+    height: 100%
+  }
+  iframe{
+    height:50vw;
+  }
+  .lr-logo{
+    height: 100px;
+  }
+  .list-group{
+    font-size: 30px;
+  }
+  h1{
+    font-size: 60px;
+  }
+  h3{
+    font-size:35px;
+  }
 }

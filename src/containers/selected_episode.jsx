@@ -6,8 +6,8 @@ const SelectedEpisode = (props) => {
     <div className="selected-episode-container">
       <div id="player"></div>
       <div className="selected-episode-info">
-      <h3>{props.selectedEpisode.title}</h3>
-      <h4>{props.selectedEpisode.descripton}</h4>
+      <h1>{props.selectedEpisode.title}</h1>
+      <h3><em>{props.selectedEpisode.descripton}</em></h3>
       </div>
     </div>
     );

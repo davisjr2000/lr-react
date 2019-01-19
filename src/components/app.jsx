@@ -9,8 +9,9 @@ const App = () => {
     <div className="app">
       <Landing />
       <div className="d-flex">
-        <EpisodeList />
+
         <SelectedEpisode />
+        <EpisodeList />
       </div>
     </div>
   );
